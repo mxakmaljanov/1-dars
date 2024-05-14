@@ -1,0 +1,937 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans";
+}
+
+
+$black: #363738;
+$grey: #6B6B6C;
+$white: #FFFFFF;
+$yellow: #FFCE50;
+$green: #0B7572;
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+    background-color: white;
+}
+
+.card {
+    width: 1240px;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+
+    .img{
+       width: 635px; 
+       height: 505px;
+    }
+}
+
+.card--text__h1 {
+    font-family: "Exo 2";
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 65px;
+    width: 610px;
+}
+
+.card--text__p {
+    width: 525px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #6B6B6C;
+
+}
+
+.card--text__a {
+    width: 105px;
+    height: 27px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    border-bottom: 3px solid #FFCE50;
+    color: black;
+    transition: all 0.5s;
+}
+
+.card--text__a:hover {
+    color: #FFCE50;
+}
+
+.services {
+    width: 1240px;
+    height: 341px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services--service {
+    width: 228px;
+    height: 245px;
+}
+
+.services--service__p {
+    width: 228px;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 24px;
+
+}
+
+.services--service__text {
+    width: 225px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #6B6B6C;
+}
+
+.chiziq {
+    height: 261px;
+    border: 1px solid #D7D7DD;
+    margin-top: 20px;
+}
+
+.whyus {
+    width: 1242px;
+    height: 453px;
+    background-image: url(/img/background-fura.svg);
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.whyus--text {
+    width: 362px;
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: -680px;
+    color: white;
+}
+
+.green {
+    background-image: url(/img/green.svg);
+    width: 769px;
+    height: 453.5px;
+}
+
+.why-us {
+    width: 1242px;
+    height: 295px;
+    margin-left: 66px;
+    margin-top: 72.5px;
+}
+
+.why-us--card {
+    width: 1220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 140px;
+
+}
+
+.b {
+    width: 327px;
+    height: 21px;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p1 {
+    width: 291px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    color: #6B6B6C;
+}
+
+.wrapper1 {
+    display: flex;
+    gap: 40px;
+    margin-top: 62px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.works {
+    margin-top: 40px;
+    width: 1239px;
+    border-radius: 10px;
+
+}
+
+.works h1 {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+
+
+}
+
+.works--p {
+    width: 465px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B6B6C;
+    padding-top: 32px;
+}
+
+.wrapperr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1239px;
+    gap: 30px;
+}
+
+.work {
+    width: 393px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    margin-top: 56px;
+
+
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 32px;
+        margin-top: 24px;
+    }
+
+    .work--p {
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        color: #6B6B6C;
+        width: 291px;
+        margin-bottom: 32px;
+    }
+
+    a {
+
+        margin-left: 32px;
+    }
+
+    strong {
+        font-family: "Exo 2";
+    }
+}
+.work1 {
+    width: 393px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    margin-top: 56px;
+
+
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 32px;
+        margin-top: 24px;
+    }
+
+    .work--p {
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        color: #6B6B6C;
+        width: 291px;
+        margin-bottom: 32px;
+    }
+
+    a {
+
+        margin-left: 32px;
+    }
+
+    strong {
+        font-family: "Exo 2";
+    }
+}
+.background__table {
+    width: 100%;
+    height: 917px;
+    background-color: $green;
+
+    h1 {
+        font-family: 'Exo 2';
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        color: $white;
+        padding-top: 100px;
+        margin-left: 81px;
+    }
+}
+
+table {
+    margin-right: 40px;
+}
+
+.tebl {
+    width: 652px;
+    height: 747px;
+    background-color: #fff;
+    margin-left: 521px;
+    margin-top: -150px;
+}
+
+.table__logo {
+    padding-top: 28px;
+    padding-left: 41px;
+}
+
+.table__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        padding-top: 28px;
+        font-family: 'PT Sans';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 16.5px;
+        color: $grey;
+    }
+}
+
+.line {
+    width: 588px;
+    gap: 0px;
+    border: 1px solid #D7D7DD;
+    opacity: 0px;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.steps {
+    width: 1232px;
+    margin-top: 120px;
+
+    h1 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+
+    .step {
+        width: 1183px;
+        height: 245px;
+        border-radius: 4px;
+        margin-left: 49px;
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        margin-top: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .step2 {
+        width: 1183px;
+        height: 245px;
+        border-radius: 4px;
+        margin-left: 49px;
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .step3 {
+        width: 1183px;
+        height: 245px;
+        border-radius: 4px;
+        margin-left: 49px;
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    h3 {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .orange {
+        width: 86px;
+        border: 3px solid #FFCE50;
+        margin-top: 24px;
+    }
+
+    p {
+        width: 568px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 24px;
+    }
+}
+
+h4 {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+.clients {
+    width: 1212px;
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.client {
+    width: 184px;
+    height: 183px;
+    margin-left: 46px;
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 32px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+        margin-left: -50px;
+    }
+}
+
+.lineeee {
+    height: 183px;
+    border: 1px solid #D7D7DD;
+}
+
+.clientt {
+    width: 184px;
+    height: 183px;
+    margin-left: 46px;
+    text-align: center;
+    margin-top: 80px;
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 32px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+}
+
+.linee {
+    margin-top: 80px;
+    height: 183px;
+    border: 1px solid #D7D7DD;
+}
+
+
+table {
+    padding-left: 32px;
+    border: 1px solid #00000033;
+    border-collapse: collapse;
+    margin-left: 32px;
+
+    td {
+  
+        padding: 13px 41px;
+        background-color: $green;
+        border: 1px solid #00000033;
+        padding-top: 20px;
+    }
+
+    th {
+        border: 1px solid #00000033;
+    }
+
+    p {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+        text-align: left;
+        padding: 10px 10px 10px 16px;
+        color: #6B6B6C;
+    }
+
+    h3 {
+        font-family: 'Exo 2';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.9px;
+        text-align: left;
+        padding: 10px 10px 10px 16px;
+    }
+
+    h2 {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18.9px;
+        text-align: left;
+        padding: 10px 10px 10px 16px;
+        color: #363738;
+    }
+
+    h5 {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+        text-align: left;
+        color: $black;
+        padding: 10px 10px 10px 16px;
+    }
+}
+
+
+.team-text {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 130px;
+    margin-bottom: 72px;
+}
+
+.team-wrap {
+    width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .team {
+        width: 605px;
+        height: 210px;
+        box-shadow: 0px 4px 15px 0px #00000026;
+        border-radius: 10px;
+        border-left: 51px solid #0B7572;
+        display: flex;
+
+
+
+        img {
+            padding-top: 32px;
+            padding-left: 32px;
+            padding-bottom: 40px;
+        }
+    }
+
+
+
+}
+
+.malumot {
+
+
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 47px;
+        padding-left: 40px;
+        padding-bottom: 12px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        color: $grey;
+        padding-left: 40px;
+        padding-bottom: 16px;
+    }
+
+    .chizz {
+        border: 3px solid #FFCE50;
+        width: 86px;
+        margin-left: 40px;
+        margin-top: 16px;
+    }
+
+}
+
+.contact-text {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 130px;
+    margin-bottom: 94px;
+
+}
+ 
+.contacts-left{
+width: 248px;
+display: flex;
+flex-direction: column;
+}
+.contacts {
+    display: flex;
+    width: 1240px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tel {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    margin-bottom: 10px;
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.tell {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    margin-bottom: 10px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.telll {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    margin-bottom: 10px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.tellll {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    padding-top: 44px;
+    margin-bottom: 10px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.contact-right{
+    width: 794px;
+    height: 383px;
+    border-radius: 5px;
+    background-color:#f9f9fb;
+    padding-top: 40px;
+    padding-left: 48px;
+
+    .input-text{
+        width: 674px;
+        height: 31px;
+        border-bottom: 1px solid  #E9EAF2;
+        display: flex;
+        margin-bottom: 32px;
+
+
+    }
+
+    p{
+    width: 175px;
+font-size: 16px;
+font-weight: 400;
+color: #6B6B6C;
+    }
+
+    span{
+    width: 443px;
+    height: 35px;
+    font-family: "Exo 2";
+font-size: 16px;
+font-weight: 600;
+margin-left: 56px;
+    }
+
+}
+
+iframe{
+margin-top: 46px;
+}
+
+.footer{
+    width: 100%;
+    height: 365px;
+    background-color: #0B7572;
+margin-top: 166px;
+}
+
+.footer-wrapper{
+    width: 100%;
+    height: 365px;
+    background-color: #0B7572;
+    display: flex;
+
+
+    .LOGO{
+        font-size: 60px;
+        font-weight: 500;
+        color: white;
+        width: 176px;
+margin-top: 59px;
+
+        
+    }
+}
+
+.carddddd{
+ display: flex;
+ gap: 97px;
+ margin-top: 80px;
+margin-left: 134px;
+    p{
+        color:#FFFFFF; 
+        font-family: "Exo 2";
+        letter-spacing: 4px;
+        font-size: 13px;
+     }
+
+     .pp1{
+    padding-bottom: 32px;
+    }
+    .p2{
+    padding-bottom: 32px;
+    }
+
+    .p3{
+    padding-bottom: 25px;
+    }
+
+    .p4{
+    padding-bottom: 25px;
+    }
+
+
+    
+}
+
+
+
+  .block{
+margin-top: 80px;
+margin-left: 180px;
+
+
+strong{
+
+}
+}
+
+.faceb{
+ padding-left: 15px;
+}
+
+.telefo{
+
+p{
+    font-family: "Exo 2";
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 32px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:690px) {
+.card{
+display: block;
+align-items: center;
+margin: auto;
+ 
+.card--text__h1{
+text-align: center;
+margin: auto;
+width: 100%;
+}
+
+.card--text__p{
+text-align: center;
+width: 690px;
+margin: 0 auto;
+margin-top: 49px;
+margin-bottom: 44px;
+color: #6B6B6C;
+}
+
+.card--text__a{
+text-align: center;
+width: 690px;
+margin-left: 590px;
+margin-top: 44px;
+}
+
+
+.img{
+    width: 70%;
+height: 313px;
+margin-left: 15%;
+margin-top: 73px;
+}
+
+}
+
+
+
+.why-us--card{
+flex-wrap: wrap;
+ gap: 49px;
+ margin: 0 auto;
+
+}
+
+.wrapper{
+width: 700px;
+margin: 0 auto;
+margin-left: 350px;
+}
+
+.wrapperr{
+gap: 380px;
+}
+.works{
+margin-top: 200px;
+ 
+h1{
+margin-left: 120px;
+}
+.works--p{
+margin-left: 120px;
+}
+
+.work{
+width: 1000px;
+height: 423px;
+margin: 0 auto;
+img{
+width: 1000px;
+}
+}
+
+.work1{
+display: none;
+}
+}
+
+.background__table{
+margin-top: 400px;
+}
+
+}
