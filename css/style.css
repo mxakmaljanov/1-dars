@@ -101,7 +101,6 @@
 .whyus {
   width: 1242px;
   height: 453px;
-  background-image: url(/img/background-fura.svg);
   display: flex;
   align-items: center;
   margin-top: 67px;
@@ -118,7 +117,6 @@
 }
 
 .green {
-  background-image: url(/img/green.svg);
   width: 769px;
   height: 453.5px;
 }
